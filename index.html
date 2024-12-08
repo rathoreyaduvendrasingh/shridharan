@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFarm NGO</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1F2937;
+        }
+
+        /* Header styles */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #2563EB;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            z-index: 50;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Main content styles */
+        main {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        section {
+            padding: 4rem 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        /* About section styles */
+        #about {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        #about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('/placeholder.svg?height=1080&width=1920');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+        }
+
+        #about .content {
+            position: relative;
+            z-index: 1;
+            max-width: 600px;
+        }
+
+        /* Testimonials section styles */
+        #testimonials {
+            background-color: #F3F4F6;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p:first-child {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        /* Gallery section styles */
+        #gallery .image-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+
+        #gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+
+        /* Contact section styles */
+        #contact {
+            background-color: #DBEAFE;
+        }
+
+        #contact .content {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        #contact h3 {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        #contact .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        #contact .social-links a {
+            color: #2563EB;
+            text-decoration: none;
+        }
+
+        #contact .social-links a:hover {
+            color: #1E40AF;
+        }
+
+        /* Footer styles */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #2563EB;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+            z-index: 50;
+        }
+
+        footer p:first-child {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        footer p:last-child {
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoFarm NGO</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="content">
+                <h2>About Us</h2>
+                <p>EcoFarm NGO is dedicated to promoting sustainable farming practices and supporting local farmers. 
+                We believe in creating a harmonious relationship between agriculture and nature, ensuring food security 
+                while preserving our environment for future generations.</p>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>What People Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <p>"EcoFarm NGO has transformed the way I approach farming. Their support and guidance have been invaluable."</p>
+                        <p><strong>John Doe</strong></p>
+                        <p>Local Farmer</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The impact of EcoFarm NGO on our community is immeasurable. They've brought hope and sustainable practices to our region."</p>
+                        <p><strong>Jane Smith</strong></p>
+                        <p>Community Leader</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"I'm impressed by the scientific approach EcoFarm NGO takes in their programs. They're making a real difference."</p>
+                        <p><strong>Alex Johnson</strong></p>
+                        <p>Environmental Scientist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <h2>Our Farmers in Action</h2>
+                <div class="image-container">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Farmer in the field">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Farmer with crops">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Farmer using sustainable methods">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Organic produce">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Community farming project">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="content">
+                    <div>
+                        <h3>Address:</h3>
+                        <p>123 Eco Street, Green City, Earth 12345</p>
+                    </div>
+                    <div>
+                        <h3>Phone:</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div>
+                        <h3>Email:</h3>
+                        <p>info@ecofarm-ngo.org</p>
+                    </div>
+                    <div>
+                        <h3>Social Media:</h3>
+                        <div class="social-links">
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>EFN</p>
+        <p>© 2023 EcoFarm NGO. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
