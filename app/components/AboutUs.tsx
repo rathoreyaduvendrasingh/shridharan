@@ -5,7 +5,7 @@ export function AboutUs() {
     <section id="about" className="relative min-h-screen flex items-center justify-center">
       {/* Background Image */}
       <Image
-        src="/test1.png?height=100&width=100"
+        src="/background.jpeg?height=100&width=100"
         alt="Farm background"
         layout="fill"
         objectFit="cover"
@@ -18,9 +18,9 @@ export function AboutUs() {
       {/* Text Content */}
       <div className="relative z-10 text-black text-center p-8">
         <h2 className="text-4xl font-bold mb-4">About Us</h2>
-        <p className="max-w-2xl font-bold mx-auto">
+        <p className="max-w-2xl font mx-auto italic subpixel-antialiased">
         The Sub Himalyan Rural Integrative Development of Horticultural and Agricultural Rooted at
-Namhol” “SHRIDHARAN Foundation” is a non-profit organization dedicated to providing pro
+Namhol (“SHRIDHARAN Foundation”) is a non-profit organization dedicated to providing pro
 bono legal aid services to farmers and economically marginalized groups in India. The
 foundation's mission is to empower these vulnerable communities by ensuring access to justice
 and protecting their rights.

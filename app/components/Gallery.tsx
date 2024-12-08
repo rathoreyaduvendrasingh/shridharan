@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
+import { useState } from 'react'
 
 export function Gallery() {
   const settings = {
@@ -33,11 +34,11 @@ export function Gallery() {
   };
 
   const images = [
-    { src: "/pic1.jpeg", alt: "License" },
-    { src: "/pic2.jpeg", alt: "Farmer with crops" },
-    { src: "/pic3.jpeg", alt: "Farmer using sustainable methods" },
-    { src: "/pic4.jpeg", alt: "Organic produce" },
-    { src: "/pic5.jpeg", alt: "Community farming project" }
+    { src: "/gallery1.jpeg", alt: "License" },
+    { src: "/gallery2.jpeg", alt: "Farmer with crops" },
+    { src: "/gallery3.jpeg", alt: "Farmer using sustainable methods" },
+    { src: "/gallery4.jpeg", alt: "Organic produce" },
+    { src: "/gallery5.jpeg", alt: "Community farming project" }
   ];
 
   return (
@@ -85,9 +86,11 @@ export function Gallery() {
     <Image
       src={image.src}
       alt={image.alt}
-      width={index == 0 ? 200 : 300}   /* Set fixed width */
-      height={index == 0 ? 300 : 200} /* Ensures the whole image is shown */
-      className="rounded-lg"
+      width={400}
+          height={300}
+          className={`rounded-lg absolute top-0 left-0 w-full h-full ${
+            index > 1 ? "object-cover" : "object-contain"
+          }`}
     />
   </div>
 </div>

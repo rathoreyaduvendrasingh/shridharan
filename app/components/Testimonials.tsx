@@ -8,20 +8,17 @@ export function Testimonials() {
       image: "/Ramlok.jpeg" // Path to image
     },
     { 
-      name: "Deshraj Thakur", 
-      role: "", 
+      name: "Deshraj Thakur",
       quote: "A farmer and entrepreneur, is a permanent member of the Shridharan Foundation. He is instrumental in helping farmers access and benefit from government schemes, ensuring their socio-economic upliftment.",
       image: "/deshraj.jpeg" // Path to image
     },
     { 
-      name: "Anirudh Sharma", 
-      role: "", 
+      name: "Anirudh Sharma",
       quote: "An advocate and social worker, is a co-founder of the Shridharan Foundation. He ensures legal compliance for government schemes and provides pro bono legal representation to marginalized communities",
       image: "/anirudh.jpeg" // Path to image
     },
     { 
-      name: "Rishabh Joshi", 
-      role: "", 
+      name: "Rishabh Joshi",
       quote: "A dedicated advocate and social worker, is a part-time member of the Shridharan Foundation. Enrolled with the Bar Council of Delhi, he actively connects marginalized farmers with pro bono legal counsel to resolve disputes hindering their agricultural activities. He has successfully assisted over 20 individuals, ensuring justice and empowering rural communities.",
       image: "/rishabh.jpeg" // Path to image
     }
@@ -30,7 +27,7 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">What People Say</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Office Bearer</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg transform transition-all hover:scale-105 hover:shadow-xl hover:cursor-pointer">
@@ -46,7 +43,6 @@ export function Testimonials() {
               </div>
               <p className="italic mb-4">"{testimonial.quote}"</p>
               <p className="font-bold text-xl mb-1">{testimonial.name}</p>
-              <p className="text-sm text-gray-600">{testimonial.role}</p>
             </div>
           ))}
         </div>
