@@ -18,7 +18,7 @@ export function Testimonials() {
       image: "/deshraj.jpeg" // Path to image
     },
     { 
-      name: "Rishabh Joshi",
+      name: "Rishab Joshi",
       quote: "A dedicated advocate and social worker, is a part-time member of the Shridharan Foundation. Enrolled with the Bar Council of Delhi, he actively connects marginalized farmers with pro bono legal counsel to resolve disputes hindering their agricultural activities. He has successfully assisted over 20 individuals, ensuring justice and empowering rural communities.",
       image: "/rishabh.jpeg" // Path to image
     }
