@@ -42,7 +42,7 @@ export function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-16">
+    <section id="objectives" className="py-16">
       <div className="bg-gray-50 p-6 rounded-lg shadow-lg mx-auto px-4">
         <div>
         <h3 className="text-2xl font-semibold text-gray-800 mb-4 border-b pb-2 text-center">Objectives</h3>

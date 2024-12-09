@@ -19,30 +19,9 @@ export function AboutUs() {
       <div className="relative z-10 text-black text-center p-8">
         <h2 className="text-4xl font-bold mb-4">About Us</h2>
         <p className="max-w-2xl font mx-auto italic subpixel-antialiased">
-        The Sub Himalyan Rural Integrative Development of Horticultural and Agricultural Rooted at
-Namhol (“SHRIDHARAN Foundation”) is a non-profit organization dedicated to providing pro
-bono legal aid services to farmers and economically marginalized groups in India. The
-foundation's mission is to empower these vulnerable communities by ensuring access to justice
-and protecting their rights.
-The Shridharan Foundation works on a variety of legal issues affecting farmers, including land
-disputes, tenancy rights, debt relief, and access to government schemes. They also provide legal
-assistance to marginalized groups such as women, children, and the elderly, focusing on issues
-like domestic violence, child labor, and elder abuse.
-The foundation's team of legal volunteers provides free legal advice, representation, and
-litigation services to their clients. They work closely with grassroots organizations and
-community leaders to identify cases and provide outreach services. The Shridharan Foundation
-also conducts legal awareness campaigns and workshops to educate people about their legal
-rights and remedies.
-The foundation's impact has been significant in empowering marginalized communities and
-ensuring that their voices are heard. They have successfully represented farmers in land disputes,
-secured debt relief for indebted farmers, and helped women obtain protection orders against
-domestic violence. The Shridharan Foundation's work has also contributed to policy advocacy
-and systemic change in the legal system.
-The Shridharan Foundation is committed to upholding the principles of justice, equality, and
-human rights. They believe that everyone, regardless of their social or economic status, deserves
-access to legal representation and a fair hearing. Through their dedicated work, the Shridharan
-Foundation is making a positive impact on the lives of thousands of farmers and marginalized
-individuals in India.
+        The Sub Himalyan Rural Integrative Development of Horticultural and Agricultural Rooted at Namhol (“SHRIDHARAN Foundation”) is a non-profit organization committed to providing free legal aid to farmers and marginalized communities in India. Its mission is to empower these groups by ensuring access to justice, safeguarding their rights, and helping them navigate legal and bureaucratic challenges.
+The foundation addresses a wide range of legal issues affecting farmers, including land disputes, tenancy rights, and debt relief. In addition to these, they play a crucial role in helping farmers access government schemes designed to support agricultural development and welfare. The foundation educates farmers about the various government benefits available, such as subsidies, insurance schemes, and financial assistance programs. They guide farmers through the often-complex application processes, ensuring that they understand the requirements and can overcome bureaucratic hurdles to secure the support they need.
+Through free legal advice, representation, and targeted awareness campaigns, the Shridharan Foundation has made a significant impact in improving the livelihoods of farmers. They have successfully assisted in securing land rights, obtaining debt relief, and facilitating access to government schemes. Their work ensures that vulnerable communities not only receive legal representation but also gain the knowledge and resources needed to protect and improve their lives.
         </p>
       </div>
     </section>

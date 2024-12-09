@@ -4,18 +4,18 @@ export function Testimonials() {
   const testimonials = [
     { 
       name: "Ramlok Thakur",
-      quote: "A renowned agriculturist from Bilaspur, Himachal Pradesh, founded theShridharan Foundation. Dedicated to sustainable agriculture, he actively teaches farmers sustainable cultivation techniques.",
+      quote: "A renowned agriculturist from Bilaspur, Himachal Pradesh, founded the Shridharan Foundation. Dedicated to sustainable agriculture, he actively teaches farmers sustainable cultivation techniques.",
       image: "/Ramlok.jpeg" // Path to image
+    },
+    { 
+      name: "Anirudh Sharma",
+      quote: "An advocate and social worker, he is a co-founder of the Shridharan Foundation. Committed to empowering farmers, he organizes legal aid camps to educate them about their rights and provide free legal assistance. He also ensures legal compliance for government schemes and offers pro bono legal representation to marginalized farmers.",
+      image: "/anirudh.jpeg" // Path to image
     },
     { 
       name: "Deshraj Thakur",
       quote: "A farmer and entrepreneur, is a permanent member of the Shridharan Foundation. He is instrumental in helping farmers access and benefit from government schemes, ensuring their socio-economic upliftment.",
       image: "/deshraj.jpeg" // Path to image
-    },
-    { 
-      name: "Anirudh Sharma",
-      quote: "An advocate and social worker, is a co-founder of the Shridharan Foundation. He ensures legal compliance for government schemes and provides pro bono legal representation to marginalized communities",
-      image: "/anirudh.jpeg" // Path to image
     },
     { 
       name: "Rishabh Joshi",
